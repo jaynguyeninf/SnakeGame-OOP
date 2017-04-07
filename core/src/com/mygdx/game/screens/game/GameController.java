@@ -47,8 +47,8 @@ public class GameController {
             //check inputs
             queryInput();
 
-            //debugging methods
-            queryDebugInput();
+            //debugging method
+//            queryDebugInput();
 
             timer += delta;
             if (timer >= GameConfig.MOVE_TIME) {
