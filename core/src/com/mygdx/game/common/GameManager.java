@@ -85,6 +85,11 @@ public class GameManager {
     // === increment score ===
     public void incrementScore(float amount) {
         score += amount;
+
+        if(score > highScore){
+            highScore = score;
+        }
+
     }
 
     //=== reset ===
